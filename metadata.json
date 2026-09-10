@@ -1,0 +1,6 @@
+{
+  "name": "SURAKSHA",
+  "description": "National Natural Disaster Safety, Alert, Evacuation & Emergency Response Platform",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

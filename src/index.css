@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-natural-bg: #f5f5f0;
+    --color-natural-surface: #fdfbf7;
+    --color-natural-card: #ffffff;
+    --color-natural-earth: #e9e6df;
+    --color-natural-soft: #f1efe9;
+    --color-natural-border: #e8e4db;
+    --color-natural-sage: #5A5A40;
+    --color-natural-clay: #D4A373;
+    --color-natural-text: #434338;
+    --color-natural-muted: #8c8c73;
+    --color-natural-secondary: #7a7a67;
+  }
+
+  body {
+    background-color: var(--color-natural-bg);
+    color: var(--color-natural-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom Natural Tones theme helper utility classes */
+.bg-natural-bg {
+  background-color: #f5f5f0;
+}
+
+.bg-natural-surface {
+  background-color: #fdfbf7;
+}
+
+.bg-natural-card {
+  background-color: #ffffff;
+}
+
+.bg-natural-earth {
+  background-color: #e9e6df;
+}
+
+.bg-natural-soft {
+  background-color: #f1efe9;
+}
+
+.border-natural {
+  border-color: #e8e4db;
+}
+
+.text-natural-text {
+  color: #434338;
+}
+
+.text-natural-muted {
+  color: #8c8c73;
+}
+
+.text-natural-secondary {
+  color: #7a7a67;
+}
+
+.text-natural-sage {
+  color: #5A5A40;
+}
+
+.bg-natural-sage {
+  background-color: #5A5A40;
+}
+
+.bg-natural-clay {
+  background-color: #D4A373;
+}
+
+.text-natural-clay {
+  color: #D4A373;
+}

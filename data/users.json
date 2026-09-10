@@ -1,0 +1,41 @@
+[
+  {
+    "id": "user-1788762692604",
+    "fullName": "divyanjali",
+    "phone": "8019456284",
+    "dob": "",
+    "email": "divyanjali.gajula@gmail.com",
+    "passwordHash": "e136d097a4d0a8d324998911118a0f16fea5b98e8f388c52ce6be9319b5fdaeecc483f2e6ebefdae3ea2cae4fae50211f17aa336898412fa3be4ac93eba65556",
+    "passwordSalt": "6fd23d934c9cc9d90c5a305bc253550a",
+    "isPhoneVerified": false,
+    "role": "PUBLIC_USER",
+    "createdAt": "2026-09-07T06:31:32.604Z"
+  },
+  {
+    "id": "user-1788772817604",
+    "fullName": "LUCKY",
+    "phone": "+91 8019456284",
+    "dob": "",
+    "email": "",
+    "passwordHash": "ce3f8f8eba8c82ddb1966a104de2dc5520ff0653f0b5e391a4d346bcbeab0d68b88fbb066b00f133a55ce492e1515723d12607a3a69de8405da20817ecf0e72a",
+    "passwordSalt": "441f30f06db8584769bf8003fdc079df",
+    "isPhoneVerified": false,
+    "role": "PUBLIC_USER",
+    "createdAt": "2026-09-07T09:20:17.604Z"
+  },
+  {
+    "id": "user-1788774410546",
+    "uid": "user-1788774410546",
+    "fullName": "Rahul Verma",
+    "email": "rahul@suraksha.gov.in",
+    "phone": "+919876543210",
+    "phoneNumber": "+919876543210",
+    "passwordHash": "026e880db1ca4bb482c567a63a6f51376c041b8b0e638d0c3e2742a6b562b0d7a71108be3846c4c7438b8c4a6f2e6bc4154715fdd44974427b43d3632b92d399",
+    "passwordSalt": "26be886af2218961ec846144e83bed9b",
+    "isPhoneVerified": false,
+    "role": "PUBLIC_USER",
+    "status": "active",
+    "createdAt": "2026-09-07T09:46:50.546Z",
+    "updatedAt": "2026-09-07T09:46:50.546Z"
+  }
+]

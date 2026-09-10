@@ -1,0 +1,18 @@
+[
+  {
+    "id": "auth-26101AP254",
+    "authorityId": "26101AP254",
+    "passwordHash": "b2b725322d7f8a2e6fdd210ce540156d35737f292b643036d304788227bff6c3e935eb73c0d992bedccf2ddef9146bd9b174b5ccb1cc4fa71e55093cf6aed8a0",
+    "passwordSalt": "8a7d3f2e1c9b0a4d5e6f7a8b9c0d1e2f",
+    "name": "Dr. K. V. Raman, IAS",
+    "department": "National Disaster Management Authority (Coastal Operations)",
+    "roleTitle": "Chief Incident Commander - Andhra Pradesh Coastal Zone",
+    "phone": "+91 891 256 4800",
+    "email": "k.v.raman.ndma@suraksha.gov.in",
+    "jurisdiction": "Visakhapatnam District & North Coastal Andhra Corridor",
+    "verificationStatus": "VERIFIED",
+    "role": "AUTHORITY",
+    "lastLogin": "2026-09-10T06:09:34.188Z",
+    "createdAt": "2026-01-15T09:00:00Z"
+  }
+]

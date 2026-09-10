@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Emergency Alerts: Public can read active alerts
+    match /emergencyAlerts/{alertId} {
+      allow read: if true;
+      allow write: if false; // Written securely by backend
+    }
+
+    // SOS Incidents
+    match /sosIncidents/{sosId} {
+      // Citizen reading their own SOS
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      
+      // Authority reading all SOS
+      // IDEAL RULE (Requires Firebase Admin Custom Tokens):
+      // allow read: if request.auth.token.role == 'AUTHORITY';
+      
+      // FALLBACK for Dev Environment (Authority signs in via local JWT, not Firebase):
+      // If deployed to production, replace with Custom Token validation above.
+      allow read: if true;
+      
+      allow write: if false; // Written securely by backend
+    }
+    
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

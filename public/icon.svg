@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#E65100" />
+    </linearGradient>
+  </defs>
+  <!-- Base Shield -->
+  <path d="M60 10 L98 26 C98 64 78 94 60 108 C42 94 22 64 22 26 Z" fill="#0F172A" />
+  <!-- Inner Shield Accent -->
+  <path d="M60 18 L90 32 C90 62 73 87 60 98 C47 87 30 62 30 32 Z" fill="#FFFFFF" />
+  <!-- Saffron Top Arch -->
+  <path d="M60 22 L86 34 C86 50 76 65 60 72 C44 65 34 50 34 34 Z" fill="url(#shieldGrad)" />
+  <!-- Green Base Arc -->
+  <path d="M60 76 C69 70 78 58 80 46 L80 52 C78 70 68 82 60 88 C52 82 42 70 40 52 L40 46 C42 58 51 70 60 76 Z" fill="#138808" />
+  <!-- Central Protective Star / Emblem Symbol -->
+  <circle cx="60" cy="48" r="7" fill="#FFFFFF" />
+  <circle cx="60" cy="48" r="3.5" fill="#0F172A" />
+</svg>

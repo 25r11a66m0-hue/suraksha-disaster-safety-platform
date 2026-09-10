@@ -1,0 +1,17 @@
+{
+  "short_name": "SURAKSHA",
+  "name": "SURAKSHA - Disaster Safety & Emergency Response",
+  "description": "National Natural Disaster Safety, Alert, Evacuation & Emergency Response Platform. Know the Risk. Find the Safe Way.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF9933",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}
